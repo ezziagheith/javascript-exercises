@@ -2,9 +2,15 @@
 //     return str == str.split('').reverse().join('');
 // }
 
-const palindromes = function() {
-    let string = 'Racecar!'
-    return string.split('').reverse().join('').toLowerCase().replace(/\W/g, '');
+
+const palindromes = function(str){
+    fixedString = str.replace(/\W/g, '').toLowerCase();
+    return fixedString.split('').reverse().join('') == fixedString
 }
+
+
+
+
+
 
 module.exports = palindromes
