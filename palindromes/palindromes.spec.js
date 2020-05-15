@@ -1,10 +1,10 @@
 const palindromes = require('./palindromes')
 
 describe('palindromes', function() {
-  it('works with single words', function() {
+  xit('works with single words', function() {
     expect(palindromes('racecar')).toEqual(true);
   });
-  xit('works with punctuation', function() {
+  it('works with punctuation', function() {
     expect(palindromes('Racecar!')).toEqual(true);
   });
   xit('works with multiple words', function() {

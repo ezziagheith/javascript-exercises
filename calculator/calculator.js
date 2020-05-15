@@ -1,13 +1,15 @@
-function add () {
-	
+function add (a, b) {
+	return a + b;
 }
 
-function subtract () {
-	
+function subtract (a, b) {
+	return a - b;
 }
 
-function sum () {
-	
+function sum (numbers) {
+	let x = numbers.reduce(function(total, num){
+		return x, 0;
+	});
 }
 
 function multiply () {
